@@ -1,0 +1,26 @@
+{
+  "name": "kickstart",
+  "version": "1.0.0",
+  "description": "**Campaign Contract:** to solve the trust problems of kickstarter issues by using smart contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Renewwen/kickstart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Renewwen/kickstart/issues"
+  },
+  "homepage": "https://github.com/Renewwen/kickstart#readme",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "ganache-cli": "^6.7.0",
+    "mocha": "^6.2.2",
+    "solc": "^0.4.25",
+    "web3": "^1.0.0-beta.35"
+  }
+}
