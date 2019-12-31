@@ -4,7 +4,8 @@
   "description": "**Campaign Contract:** to solve the trust problems of kickstarter issues by using smart contract",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "dev": "next dev"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,11 @@
     "fs-extra": "^8.1.0",
     "ganache-cli": "^6.7.0",
     "mocha": "^6.2.2",
+    "next": "^4.1.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.2",
     "solc": "^0.4.25",
     "truffle-hdwallet-provider": "0.0.6",
     "web3": "^1.0.0-beta.35"

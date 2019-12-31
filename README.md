@@ -29,3 +29,15 @@ to solve the trust problems of kickstarter issues by using smart contract
 | complete | bool | True if the request has already been processed (money sent) |
 | approvals | mapping | Track who has voted |
 | approvalCount | uint | Track number of approvals |
+
+### Routing
+| Path | We should show... |
+| --- | --- |
+| / | List of Campaigns |
+| /campaigns/new | Form to make a campaign |
+| /campaigns/0x8146 | Campaign details for campaign at address 0x8146 |
+| /campaign/0x8146/requests | Requests for campaign at address 0x8146 |
+| /campaign/0x8146/requests/new | Form to create a request for campaign at address 0x8146 | 
+
+## TOOLS
+- Next.js
