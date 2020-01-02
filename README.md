@@ -41,3 +41,4 @@ to solve the trust problems of kickstarter issues by using smart contract
 
 ## TOOLS
 - Next.js
+- semantic-ui-react
