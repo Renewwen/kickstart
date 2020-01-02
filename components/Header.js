@@ -4,9 +4,9 @@ import { Link } from '../routes';
 
 export default () => {
   return (
-    <Menu style={{ marginTop: '20px' }}>
+    <Menu style={{ marginTop: '30px' }}>
       <Link route="/">
-        <a className="item">CrowdCoin</a>
+        <a className="item">WenCoin</a>
       </Link>
 
       <Menu.Menu position="right">
